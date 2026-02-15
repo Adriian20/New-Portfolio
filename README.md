@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio - Adrián Marqués Roqueta
 
-## Getting Started
+Portafolio moderno y profesional de Adrián Marqués Roqueta, Full Stack Developer especializado en backend con PHP y Java.
 
-First, run the development server:
+## Características
+
+- **Diseño responsivo**: Adaptado para móvil, tablet y desktop
+- **Tema oscuro**: Interfaz optimizada para desarrolladores
+- **Animaciones suaves**: Scroll fluido y transiciones elegantes en navegación
+- **Accesibilidad**: Cumple con estándares WCAG
+- **Performance optimizado**: Diseñado con Next.js 16 y Tailwind CSS 4
+- **TypeScript**: Tipado estático para mayor robustez
+
+## Stack Tecnológico
+
+### Frontend
+
+- **Next.js 16**: React framework con App Router
+- **React 19**: Librería UI
+- **TypeScript 5**: Tipado estático
+- **Tailwind CSS 4**: Framework de estilos
+- **Framer Motion 12**: Animaciones avanzadas
+- **Shadcn/UI**: Componentes accesibles basados en Radix UI
+
+### Herramientas
+
+- **ESLint**: Code linting
+- **PostCSS**: Procesamiento CSS
+- **pnpm**: Package manager
+
+## Iniciando el servidor de desarrollo
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
+# o
 pnpm dev
-# or
-bun dev
+# o
+yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) con tu navegador para ver el resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Secciones
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Hero**: Presentación principal con CTA
+- **Sobre mí**: Información personal y profesional
+- **Proyectos**: Galería de trabajos destacados
+- **Skills**: Stack de tecnologías y habilidades
+- **Experiencia**: Trayectoria laboral
+- **Contacto**: Información de contacto y redes
 
-## Learn More
+## Características de animación
 
-To learn more about Next.js, take a look at the following resources:
+- **Scroll suave automático**: Navegación con scroll behavior smooth
+- **Subrayado animado**: Las navegación muestra feedback visual en hover y click
+- **Scale en activos**: Los links activos se amplían para mejor feedback
+- **Entrada en viewport**: Elementos se animan al entrar en vista
+- **Transiciones fluidas**: Duración de 300-800ms para máximo pulido
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Despliegue
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+El proyecto está optimizado para desplegar en [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
 
-## Deploy on Vercel
+Consulta la [documentación de despliegue de Next.js](https://nextjs.org/docs/app/building-your-application/deploying) para más detalles.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Autor
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Adrián Marqués Roqueta** - [GitHub](https://github.com/Adriian20) | [LinkedIn](https://www.linkedin.com/in/adrian-marques/)
