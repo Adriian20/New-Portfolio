@@ -2,7 +2,7 @@ export const hero = {
   name: "Adrián Marqués Roqueta",
   title: "Web Developer | Full Stack | Programmer | PHP | JAVA",
   summary:
-    "Desarrollador web con interés en construir aplicaciones dinámicas, seguras y fáciles de usar. Especializado en backend con PHP y JAVA, con experiencia en Vue.js y entornos Agile.",
+    "Desarrollador web con interés en construir aplicaciones dinámicas, seguras y fáciles de usar. Especializado en backend con PHP y JAVA, con experiencia en Vue.js y entornos Agile. Experto en Symfony, Redis, RabbitMQ y Docker.",
   cvUrl: "/archives/Marques.Roqueta.Adrian.CV.pdf",
 } as const;
 
@@ -30,11 +30,12 @@ export const skills = [
     category: "Backend",
     items: [
       "Desarrollo de Backend",
+      "PHP",
+      "Symfony",
+      "Laravel",
+      "PHP OOP",
       "Java",
       "Spring Boot",
-      "PHP",
-      "Laravel",
-      "Symfony",
       "RabbitMQ",
       "Redis",
     ],
@@ -46,8 +47,10 @@ export const skills = [
       "Vue.js",
       "TypeScript",
       "JavaScript",
-      "HTML",
-      "CSS",
+      "HTML5",
+      "CSS3",
+      "SCSS",
+      "TailwindCSS",
     ],
   },
   {
@@ -55,8 +58,12 @@ export const skills = [
     items: ["MySQL", "MariaDB", "MongoDB"],
   },
   {
-    category: "Control de Versiones",
-    items: ["Git", "GitHub", "BitBucket", "Control de versiones"],
+    category: "Infraestructura y DevOps",
+    items: ["Docker", "Jenkins", "Git", "GitHub", "BitBucket", "Linux"],
+  },
+  {
+    category: "Testing y Metodologías",
+    items: ["PHPUnit", "PHPSpec", "Scrum", "Agile", "Control de versiones"],
   },
 ] as const;
 
@@ -65,7 +72,7 @@ export const experience = [
     company: "Adnovation (EXOGROUP)",
     role: "Backend Developer",
     description:
-      "Actualmente desempeño el rol de Web Developer Symfony, donde participo en el desarrollo y mantenimiento de aplicaciones backend de alto rendimiento utilizando PHP (OOP) y Symfony, integrando tecnologías como Redis y RabbitMQ. Formo parte de todo el ciclo de desarrollo: análisis, diseño, codificación, pruebas automatizadas con PHPUnit/PHPSpec y despliegue en producción. Trabajo en un entorno Agile (Scrum), colaborando con equipos multidisciplinares y utilizando Git en sistemas Linux. Además, participo en la optimización de procesos en entornos de alto tráfico, aplicando herramientas como Docker, Jenkins y bases de datos MySQL y MongoDB. Esta experiencia me ha permitido crecer como desarrollador backend y aportar soluciones escalables alineadas con los objetivos estratégicos de la empresa.",
+      "Actualmente desempeño el rol de Web Developer Symfony, donde participo en el desarrollo y mantenimiento de aplicaciones backend de alto rendimiento utilizando PHP (OOP) y Symfony, integrando tecnologías como Redis y RabbitMQ para optimización de procesos. Formo parte de todo el ciclo de desarrollo: análisis, diseño, codificación, pruebas automatizadas con PHPUnit/PHPSpec y despliegue en producción. Trabajo en un entorno Agile (Scrum), colaborando con equipos multidisciplinares y utilizando Git en sistemas Linux. Además, participo en la optimización de procesos en entornos de alto tráfico, aplicando herramientas como Docker, Jenkins y bases de datos MySQL y MongoDB. Esta experiencia me ha permitido crecer como desarrollador backend y aportar soluciones escalables alineadas con los objetivos estratégicos de la empresa.",
   },
   {
     company: "TuGesto",
@@ -80,8 +87,8 @@ export const projects = [
     title: "Concesionario Vue",
     slug: "concesionario-vue",
     description:
-      "Aplicación web para la gestión de un concesionario de coches, desarrollada con Vue.js.",
-    technologies: ["Vue.js"],
+      "Aplicación web completa para la gestión e inventario de un concesionario de coches. Desarrollada con Vue.js con interfaz interactiva, gestión de estado avanzada y características de usuario responsivas.",
+    technologies: ["Vue.js", "JavaScript", "TailwindCSS"],
     href: "https://github.com/Adriian20/Concesionario-Vue",
     image:
       "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&q=80",
@@ -91,8 +98,8 @@ export const projects = [
     title: "Tienda De Fútbol Java",
     slug: "tienda-futbol-java",
     description:
-      "Backend de una tienda de artículos de fútbol, implementado en Java con Spring Boot.",
-    technologies: ["Java", "Spring Boot"],
+      "Backend RESTful de una tienda de artículos de fútbol implementado en Java con Spring Boot. APIs escalables, gestión de inventario, usuarios, autenticación y autorización.",
+    technologies: ["Java", "Spring Boot", "MySQL"],
     href: "https://github.com/Adriian20/TiendaFutbol-Backend",
     image:
       "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&q=80",
@@ -102,8 +109,8 @@ export const projects = [
     title: "Tienda De Fútbol Vue",
     slug: "tienda-futbol-vue",
     description:
-      "Frontend de una tienda de artículos de fútbol, desarrollado con Vue.js y TailwindCSS.",
-    technologies: ["Vue.js", "TailwindCSS"],
+      "Frontend de tienda de artículos de fútbol con Vue.js, TailwindCSS y TypeScript. Integración con API REST, carrito de compras, filtrado avanzado de productos y experiencia de usuario optimizada.",
+    technologies: ["Vue.js", "TypeScript", "TailwindCSS"],
     href: "https://github.com/Adriian20/TiendaFutbol-Frontend",
     image:
       "https://images.unsplash.com/photo-1731692483141-1ec523809aa1?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -113,8 +120,8 @@ export const projects = [
     title: "Sagunto Kids",
     slug: "sagunto-kids",
     description:
-      "Página web completa de búsqueda de actividades extraescolares para niños en Sagunto.",
-    technologies: ["JAVA", "MySQL", "TailwindCSS", "Docker"],
+      "Plataforma web completa de búsqueda y reserva de actividades extraescolares para niños en Sagunto. Backend robusto en Java con base de datos MySQL, frontend responsive con TailwindCSS y deployado con Docker.",
+    technologies: ["Java", "Spring Boot", "MySQL", "TailwindCSS", "Docker"],
     href: "https://github.com/Adriian20/SaguntoKids",
     image:
       "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&q=80",
@@ -124,7 +131,7 @@ export const projects = [
 
 export const contact = {
   heading: "¡Hablemos!",
-  text: "Si estás buscando un programador web con experiencia en Java, PHP y Vue.js, y con ganas de asumir nuevos retos, estoy aquí para ayudarte. Ya sea para colaborar en proyectos interesantes o para formar parte de tu equipo. Puedes escribirme o conectarte conmigo en LinkedIn. Estoy siempre abierto a nuevas oportunidades y conversaciones sobre desarrollo, tecnología y cómo podemos trabajar juntos.",
+  text: "Si estás buscando un programador web con experiencia en Java, PHP, Symfony, Vue.js y con ganas de asumir nuevos retos, estoy aquí para ayudarte. Ya sea para colaborar en proyectos interesantes o para formar parte de tu equipo. Puedes escribirme o conectarte conmigo en LinkedIn. Estoy siempre abierto a nuevas oportunidades y conversaciones sobre desarrollo, tecnología y cómo podemos trabajar juntos.",
   email: "adrianmarquesroqueta@gmail.com",
   linkedin: "https://www.linkedin.com/in/adrian-marques/",
   github: "https://github.com/Adriian20",
