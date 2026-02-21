@@ -46,8 +46,7 @@ export function Header() {
             className,
           )}
         >
-          {item.label}
-          <span
+          {item.label}<span
             className={cn(
               "absolute bottom-0 left-0 h-0.5 bg-primary transition-all duration-300",
               activeLink === item.href ? "w-full" : "w-0 group-hover:w-full",
@@ -69,8 +68,7 @@ export function Header() {
           }}
           className="text-lg font-semibold text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-md hover:text-primary transition-all duration-300 relative group"
         >
-          AM
-          <span
+          AM<span
             className={cn(
               "absolute bottom-0 left-0 h-0.5 bg-primary transition-all duration-300",
               activeLink === "#hero" ? "w-full" : "w-0 group-hover:w-full",
